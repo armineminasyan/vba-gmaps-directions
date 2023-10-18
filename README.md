@@ -1,10 +1,14 @@
-# Abstract
+<p align="center">
+  <img src="https://openclipart.org/image/800px/241044" />
+</p>
+
+# Description
 
 This workbook shows how to integrate the Google Maps Directions API to calculate driving times between locations taken from an Excel spreadsheet.
 The same concepts can be applied to many APIs exposing an XML-based interface via simple HTTP GET.
 The workbook contains three sheets: one with the location of some warehouses, one with the location of some customers, and one where the results will be written.
-When the `ComputeClosestWarehouse` function is called, the script will determine which is the closest warehouse for each customer, basing this choice on the driving time between the locations, as returned by the Google Maps Directions API.
-As this is just a small tutorial, I did not add a proper user interface to the workbook.
+When the `ComputeClosestWarehouse` function is called, the script will determine the closest warehouse for each customer, basing this choice on the driving time between the locations, as returned by the Google Maps Directions API.
+As this is a small tutorial, I did not add a proper user interface to the workbook.
 
 # VBA Code
 
